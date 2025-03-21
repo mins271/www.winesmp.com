@@ -1,0 +1,147 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Dark theme styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+}
+
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #1e1e1e;
+    border-bottom: 2px solid #444;
+}
+
+.logo a {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-bar li {
+    margin: 0 15px;
+}
+
+.nav-bar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-bar a:hover {
+    color: #f39c12;
+}
+
+/* About Us page styling */
+.about-us-page {
+    padding: 40px;
+}
+
+/* About section */
+.about-section {
+    margin-bottom: 40px;
+}
+
+.about-section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Team section */
+.team-section {
+    margin-bottom: 40px;
+}
+
+.team-section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.team-member {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+.team-member img {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.team-member h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.team-member p {
+    font-size: 16px;
+    color: #888;
+}
+
+/* Contact section */
+.contact-section {
+    margin-bottom: 40px;
+}
+
+.contact-section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.contact-section a {
+    color: #f39c12;
+    text-decoration: none;
+}
+
+.contact-section a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+    background-color: #1e1e1e;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
